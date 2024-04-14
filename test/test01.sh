@@ -1,0 +1,15 @@
+python ../main.py \
+--dataset cifar \
+--local_bs 100 \
+--local_ep 1 \
+--lr 0.1 \
+--rounds 500 \
+--num_channels 3 \
+--all_clients \
+--sys_homo \
+--fed fedavg \
+--gpu 0 \
+--seed 3 \
+--sampling noniid \
+--num_channels 3 \
+--dataset cifar
